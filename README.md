@@ -22,11 +22,35 @@ Open terminal and try execute some kali linux commands
 ## EXECUTION STEPS AND ITS OUTPUT:
 Social Engineering attacks are the various cons used by the hackers to trick people into providing sensitive data to the attackers. 
 The command sudo setoolkit in the prompt gives menu with set prompt:
+![image](7a.png)
 
+It displays the following menu and select 2 for Website Attack Vectors:
+![image](7b.png)
 
+The website Attack Vectors displays the following menu. In this menu3 for Credential Harvester Attack Method is selected:
+![image](7c.png)
 
+The Credential Harvester Attack Method displays the following menu. In this menu1 for Web Templates is selected:
+![image](7d.png)
 
+It shows the following screen in which the ip address of the attacker need to be given which is the default value:
+![image](7e.png)
 
+It shows the following screen in which the option Google can be selected:
+![image](7f.png)
+
+SET starts my Kali Linux Webserver on port 80, with the fake Google account login page. The setup is done:
+![image](7g.png)
+
+In windows IE, on giving the url http://192.168.1.2, the fake Google page is displayed.
+The victim can enter the username and password
+![image](7h.png)
+
+SET logs the information regarding the Google credentials:
+![image](7i.png)
+
+SET logs the information in the xml file under /root/.set directory:
+![image](7j.png)
 
 
 ## RESULT:
